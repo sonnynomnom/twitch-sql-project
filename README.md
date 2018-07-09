@@ -32,11 +32,7 @@ LIMIT 20;
 
 5. What are the most popular games in `stream`? Create a list of games and their number of viewers. `ORDER BY` from most popular to least popular.
 
-6. Create a new column named `genre` for each of the games in `stream`.
-
-Group the games into their genres: Multiplayer Online Battle Arena (MOBA), First Person Shooter (FPS), Survival, and Others.
-
-Using `CASE` statement, your logic should be:
+6. Using a `CASE` statement, create a new column named `genre` for each of the games in `stream`. Group the games into their genres: Multiplayer Online Battle Arena (MOBA), First Person Shooter (FPS), Survival, and Others. Your logic should be:
 
 *
 If League of Leagues → MOBA
@@ -49,6 +45,6 @@ If Survival Evolved → Survival
 
 Use `GROUP BY` and `ORDER BY` to showcase only the unique game titles.
 
-7. The `stream` table and the `chat` table share a column: device_id.
+7. The `stream` table and the `chat` table share a column: `device_id`. Do a `JOIN` of the two tables on that column.
 
-Let's join the two tables on that column.
+8. Try find some other interesting insights using SQL!
