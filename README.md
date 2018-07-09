@@ -34,12 +34,12 @@ LIMIT 20;
 
 6. Using a `CASE` statement, create a new column named `genre` for each of the games in `stream`. Group the games into their genres: Multiplayer Online Battle Arena (MOBA), First Person Shooter (FPS), Survival, and Others. Your logic should be:
 
-If League of Leagues → MOBA
-If Dota 2 → MOBA
-If Heroes of the Strom → MOBA
-If Counter-Strike: Global Offensive → FPS
-If DayZ → Survival
-If Survival Evolved → Survival
+*If League of Leagues → MOBA*  
+*If Dota 2 → MOBA*  
+*If Heroes of the Strom → MOBA*  
+*If Counter-Strike: Global Offensive → FPS*  
+*If DayZ → Survival*  
+*If Survival Evolved → Survival*  
 
 Use `GROUP BY` and `ORDER BY` to showcase only the unique game titles.
 
