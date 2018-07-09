@@ -32,14 +32,7 @@ LIMIT 20;
 
 5. What are the most popular games in `stream`? Create a list of games and their number of viewers. `ORDER BY` from most popular to least popular.
 
-6. Using a `CASE` statement, create a new column named `genre` for each of the games in `stream`. Group the games into their genres: Multiplayer Online Battle Arena (MOBA), First Person Shooter (FPS), Survival, and Others. Your logic should be:
-
-*If League of Leagues → MOBA*  
-*If Dota 2 → MOBA*  
-*If Heroes of the Strom → MOBA*  
-*If Counter-Strike: Global Offensive → FPS*  
-*If DayZ → Survival*  
-*If Survival Evolved → Survival*  
+6. Using a `CASE` statement, create a new column named `genre` for each of the games in `stream`. Group the games into their genres: Multiplayer Online Battle Arena (MOBA), First Person Shooter (FPS), and Others. Your logic should be: *If it is League of Leagues or Dota 2 or Heroes of the Storm → then it is MOBA. If it Counter-Strike: Global Offensive → Then it is FPS. Else, it is Others.*
 
 Use `GROUP BY` and `ORDER BY` to showcase only the unique game titles.
 
