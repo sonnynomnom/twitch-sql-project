@@ -1,8 +1,6 @@
 # Codecademy SQL Writing Sample
 
-Twitch is the world’s leading video platform and community for gamers, with more than 15+ million unique daily visitors. Using data to understand its users and products is one of the chief responsibilities of Twitch's Data Science team.
-
-In this project, you will be working with two fictional tables that contain Twitch's streaming data and chat room data.
+[Twitch](https://www.twitch.tv) is the world’s leading video platform and community for gamers, with more than 15+ million unique daily visitors. In this project, you will be working with two fictional tables that contain Twitch's streaming data and chat room data:
 
 Streaming data:
 
