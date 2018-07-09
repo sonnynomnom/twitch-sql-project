@@ -1,16 +1,11 @@
 # Codecademy SQL Writing Sample
 
-[Twitch](https://www.twitch.tv) is the world’s leading video platform and community for gamers, with more than 15+ million unique daily visitors. In this project, you will be working with two fictional tables that contain Twitch's streaming data and chat room data:
+[Twitch](https://www.twitch.tv) is the world’s leading video platform and community for gamers, with more than 15+ million unique daily visitors. In this project, you will be working with two fictional tables that contain Twitch's streaming data and chat room data and answering questions about them:
 
-Streaming data:
+- Streaming data is in the `stream` table
+- Chat usage data is in the `chat` table
 
-- `stream` table
-
-Chat usage data:
-
-- `chat` table
-
-Each question can be answered using one (or more) queries. The answer to the first question is given. The rest is for you to figure out. Let's get started!
+Each question can be answered using one (or more) SQL queries. The answer to the first question is given. The rest is for you to figure out. Let's get started!
 
 ---
 
