@@ -1,4 +1,4 @@
-# Codecademy SQL Writing Sample (Twitch Dataset)
+# Codecademy SQL Writing Sample
 
 Twitch is the world’s leading video platform and community for gamers, with more than 15+ million unique daily visitors. Using data to understand its users and products is one of the chief responsibilities of Twitch's Data Science team.
 
@@ -12,11 +12,17 @@ Chat usage data:
 
 - `chat` table
 
-Each question can be answered using one (or more) queries. Let's get started!
+Each question can be answered using one (or more) queries. The answer to the first question is given. The rest is for you to figure out. Let's get started!
 
 ---
 
 1. `SELECT` all columns from the first 20 rows of `stream` table.
+
+```sql
+SELECT *
+FROM stream
+LIMIT 20;
+```
 
 2. `SELECT` all columns from the first 20 rows of `chat` table.
 
