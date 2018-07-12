@@ -41,4 +41,4 @@ LIMIT 20;
 
 ---
 
-**Bonus:** Now try to find some other interesting insights using SQL!
+**Bonus:** Now try to find some other interesting insights from these two tables using SQL!
